@@ -10,11 +10,16 @@ export const FeedbackButton = styled.button`
   border: 1px solid #535353;
   text-transform: capitalize;
   cursor: pointer;
+  &:hover {
+    color: #fff;
+    background-color: #cc3131;
+    border: 1px solid #cc3131;
+  }
 `;
 
 export const FeedbackWrap = styled.div`
   display: flex;
-  gap: 20px
+  gap: 20px;
   margin: 10px 0;
   padding: 10px;
 `;
